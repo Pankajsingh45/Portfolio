@@ -90,4 +90,14 @@ The Dockerfile uses a 3-stage build (`deps` → `builder` → `runner`) and Next
 ## Known limitation (documented, not a bug)
 
 Visiting an unknown post URL (e.g. `/blog/does-not-exist`) correctly shows the not-found page, but the HTTP status stays `200` rather than `404`. This is documented, expected Next.js App Router behavior: any route with a `loading.jsx` streams its response, and once streaming starts the status code is locked in at `200` — see [Next.js docs on not-found.js](https://nextjs.org/docs/app/api-reference/file-conventions/not-found). Next.js states this does not affect SEO indexing in practice.
-# Portfolio
+
+# screenshots
+
+<img width="1337" height="633" alt="image" src="https://github.com/user-attachments/assets/1cafb4ab-a8c9-4756-a0eb-06f27a598d86" />
+
+<img width="1303" height="576" alt="image" src="https://github.com/user-attachments/assets/68462bd9-01e1-4648-8cfd-fd28fdb6c0c0" />
+
+<img width="1109" height="518" alt="image" src="https://github.com/user-attachments/assets/440889ba-9dfd-4cf0-a6e5-c50968e4d543" />
+
+
+
