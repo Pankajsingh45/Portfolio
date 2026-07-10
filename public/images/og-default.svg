@@ -1,0 +1,10 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#15181d"/>
+  <circle cx="70" cy="60" r="9" fill="#c0463c"/>
+  <circle cx="100" cy="60" r="9" fill="#c8862c"/>
+  <circle cx="130" cy="60" r="9" fill="#2f9e6e"/>
+  <text x="70" y="280" font-family="monospace" font-size="34" fill="#4b5058">$ whoami</text>
+  <text x="70" y="340" font-family="'Space Grotesk', sans-serif" font-size="56" font-weight="600" fill="#f3f1ea">Asha Rao</text>
+  <text x="70" y="390" font-family="monospace" font-size="28" fill="#e9e6db">Frontend / Full-Stack Developer</text>
+  <text x="70" y="440" font-family="monospace" font-size="22" fill="#6b7078">case studies · blog · deployment notes</text>
+</svg>

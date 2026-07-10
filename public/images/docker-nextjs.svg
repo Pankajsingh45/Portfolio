@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <g font-family="monospace" font-size="18" fill="#e9e6db">
+    <rect x="160" y="160" width="880" height="90" rx="6" fill="#1c2027" stroke="#3b6fd1" stroke-width="1.5"/>
+    <text x="185" y="212" fill="#3b6fd1">FROM node:alpine AS deps</text>
+
+    <rect x="160" y="272" width="880" height="90" rx="6" fill="#1c2027" stroke="#c8862c" stroke-width="1.5"/>
+    <text x="185" y="324" fill="#c8862c">FROM node:alpine AS builder</text>
+
+    <rect x="160" y="384" width="880" height="130" rx="6" fill="#1c2027" stroke="#2f9e6e" stroke-width="1.5"/>
+    <text x="185" y="425" fill="#2f9e6e">FROM node:alpine AS runner</text>
+    <text x="185" y="455" fill="#6b7078">~130MB · non-root user</text>
+    <text x="185" y="485" fill="#6b7078">CMD ["node", "server.js"]</text>
+  </g>
+</svg>

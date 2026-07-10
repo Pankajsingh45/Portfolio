@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+:root {
+  /* Color tokens — a "build log" palette: warm paper, near-black ink,
+     and three signal colors borrowed from CI status dots. */
+  --paper: #f3f1ea;
+  --paper-dim: #e9e6db;
+  --ink: #15181d;
+  --ink-soft: #4b5058;
+  --line: #d8d4c6;
+
+  --signal-green: #2f9e6e;
+  --signal-amber: #c8862c;
+  --signal-blue: #3b6fd1;
+  --signal-red: #c0463c;
+
+  --font-display: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+a {
+  color: inherit;
+}
+
+/* Visible keyboard focus everywhere — no focus:outline-none escape hatch */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--signal-blue);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+/* Blinking terminal cursor used once, in the hero — not reused elsewhere */
+@keyframes blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Prose styling for rendered markdown case-study bodies */
+.prose-post {
+  font-family: var(--font-body), sans-serif;
+  color: var(--ink);
+  line-height: 1.75;
+}
+
+.prose-post h2 {
+  font-family: var(--font-display), sans-serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-post p {
+  margin-bottom: 1.1rem;
+  color: var(--ink-soft);
+}
+
+.prose-post ul {
+  margin: 1rem 0 1.25rem 1.25rem;
+  list-style: disc;
+}
+
+.prose-post li {
+  margin-bottom: 0.5rem;
+  color: var(--ink-soft);
+}
+
+.prose-post strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.prose-post code {
+  font-family: var(--font-mono), monospace;
+  background: var(--paper-dim);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}

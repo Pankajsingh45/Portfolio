@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <g font-family="monospace" fill="#e9e6db">
+    <rect x="150" y="140" width="380" height="260" rx="8" fill="#1c2027" stroke="#2a2f38"/>
+    <rect x="180" y="170" width="320" height="140" rx="4" fill="#2a2f38"/>
+    <text x="180" y="345" font-size="18">Product</text>
+    <text x="180" y="370" font-size="16" fill="#6b7078">$ 24.00</text>
+
+    <rect x="560" y="140" width="380" height="260" rx="8" fill="#1c2027" stroke="#3b6fd1"/>
+    <rect x="590" y="170" width="320" height="140" rx="4" fill="#2a2f38"/>
+    <text x="590" y="345" font-size="18">Product</text>
+    <text x="590" y="370" font-size="16" fill="#6b7078">$ 18.00</text>
+
+    <rect x="150" y="430" width="790" height="90" rx="8" fill="#1c2027" stroke="#2f9e6e"/>
+    <text x="180" y="470" font-size="20" fill="#2f9e6e">Cart (2 items)</text>
+    <text x="180" y="500" font-size="16" fill="#6b7078">Total: $42.00 → Checkout</text>
+  </g>
+</svg>

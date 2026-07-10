@@ -1,0 +1,13 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <rect x="120" y="150" width="960" height="375" rx="8" fill="#1c2027" stroke="#2a2f38"/>
+  <text x="155" y="200" fill="#4b5058" font-family="monospace" font-size="18">---</text>
+  <text x="155" y="235" fill="#3b6fd1" font-family="monospace" font-size="18">title:<tspan fill="#e9e6db">  "Markdown-Powered Blog"</tspan></text>
+  <text x="155" y="270" fill="#3b6fd1" font-family="monospace" font-size="18">status:<tspan fill="#2f9e6e"> "shipped"</tspan></text>
+  <text x="155" y="305" fill="#3b6fd1" font-family="monospace" font-size="18">stack:<tspan fill="#e9e6db">  [Next.js, remark]</tspan></text>
+  <text x="155" y="340" fill="#4b5058" font-family="monospace" font-size="18">---</text>
+  <text x="155" y="400" fill="#e9e6db" font-family="monospace" font-size="18">## The problem</text>
+  <rect x="155" y="425" width="600" height="10" rx="4" fill="#2a2f38"/>
+  <rect x="155" y="450" width="500" height="10" rx="4" fill="#2a2f38"/>
+  <rect x="155" y="475" width="560" height="10" rx="4" fill="#2a2f38"/>
+</svg>

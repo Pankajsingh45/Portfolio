@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <g font-family="monospace" font-size="16" fill="#e9e6db">
+    <text x="140" y="150">Performance</text>
+    <circle cx="290" cy="145" r="34" fill="none" stroke="#2a2f38" stroke-width="8"/>
+    <circle cx="290" cy="145" r="34" fill="none" stroke="#2f9e6e" stroke-width="8"
+      stroke-dasharray="213" stroke-dashoffset="9" transform="rotate(-90 290 145)"/>
+    <text x="290" y="152" text-anchor="middle" font-size="20" fill="#2f9e6e">96</text>
+
+    <text x="140" y="260">LCP</text>
+    <rect x="140" y="280" width="900" height="18" rx="9" fill="#2a2f38"/>
+    <rect x="140" y="280" width="300" height="18" rx="9" fill="#2f9e6e"/>
+    <text x="1050" y="294" fill="#2f9e6e">1.6s</text>
+
+    <text x="140" y="360" fill="#6b7078">before: 4.8s</text>
+    <rect x="140" y="378" width="900" height="10" rx="5" fill="#2a2f38"/>
+    <rect x="140" y="378" width="880" height="10" rx="5" fill="#c0463c" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <g font-family="monospace" fill="#e9e6db">
+    <rect x="150" y="150" width="900" height="60" rx="6" fill="#1c2027" stroke="#2a2f38"/>
+    <text x="175" y="188" font-size="18">"absolutely loved this, would buy again"</text>
+
+    <rect x="150" y="250" width="270" height="160" rx="8" fill="#1c2027" stroke="#2f9e6e"/>
+    <text x="175" y="290" font-size="42" fill="#2f9e6e">+</text>
+    <text x="175" y="380" font-size="18">positive</text>
+
+    <rect x="465" y="250" width="270" height="160" rx="8" fill="#1c2027" stroke="#6b7078"/>
+    <text x="180" y="290" font-size="0"/>
+    <text x="560" y="335" font-size="42" fill="#6b7078">•</text>
+    <text x="490" y="380" font-size="18">neutral</text>
+
+    <rect x="780" y="250" width="270" height="160" rx="8" fill="#1c2027" stroke="#c0463c"/>
+    <text x="875" y="335" font-size="42" fill="#c0463c">−</text>
+    <text x="805" y="380" font-size="18">negative</text>
+  </g>
+</svg>

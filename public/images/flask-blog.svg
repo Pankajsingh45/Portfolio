@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <g font-family="monospace" fill="#e9e6db">
+    <text x="140" y="150" font-size="18" fill="#4b5058">app.py</text>
+    <rect x="140" y="170" width="920" height="130" rx="6" fill="#1c2027" stroke="#2a2f38"/>
+    <text x="165" y="205" fill="#3b6fd1">@app.route(<tspan fill="#c8862c">"/post/&lt;id&gt;"</tspan>)</text>
+    <text x="165" y="235" fill="#e9e6db">def post(id):</text>
+    <text x="195" y="265" fill="#6b7078">return render_template("post.html")</text>
+
+    <text x="140" y="360" font-size="18" fill="#4b5058">Latest AI Updates</text>
+    <rect x="140" y="385" width="440" height="150" rx="8" fill="#1c2027" stroke="#2f9e6e"/>
+    <text x="165" y="420" font-size="16">New model release notes</text>
+    <rect x="620" y="385" width="440" height="150" rx="8" fill="#1c2027" stroke="#2a2f38"/>
+    <text x="645" y="420" font-size="16">Weekly AI roundup</text>
+  </g>
+</svg>

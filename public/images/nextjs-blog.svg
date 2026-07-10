@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#15181d"/>
+  <g font-family="monospace" fill="#e9e6db">
+    <circle cx="70" cy="60" r="9" fill="#c0463c"/>
+    <circle cx="100" cy="60" r="9" fill="#c8862c"/>
+    <circle cx="130" cy="60" r="9" fill="#2f9e6e"/>
+    <text x="1050" y="65" font-size="16" fill="#3b6fd1" text-anchor="end">Next.js</text>
+
+    <rect x="70" y="140" width="500" height="200" rx="8" fill="#1c2027" stroke="#3b6fd1"/>
+    <rect x="95" y="165" width="450" height="90" rx="4" fill="#2a2f38"/>
+    <text x="95" y="285" font-size="18">Building a Blog Engine</text>
+    <text x="95" y="310" font-size="14" fill="#6b7078">SSR · dynamic routes · 4 min read</text>
+
+    <rect x="600" y="140" width="500" height="200" rx="8" fill="#1c2027" stroke="#2a2f38"/>
+    <rect x="625" y="165" width="450" height="90" rx="4" fill="#2a2f38"/>
+    <text x="625" y="285" font-size="18">Responsive Layouts</text>
+    <text x="625" y="310" font-size="14" fill="#6b7078">mobile-first · 3 min read</text>
+  </g>
+</svg>
