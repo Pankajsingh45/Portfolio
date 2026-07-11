@@ -3,6 +3,11 @@ import PostCard from "@/components/PostCard";
 import LazyAvailability from "@/components/LazyAvailability";
 import { getAllPostsMeta } from "@/lib/posts";
 import { AUTHOR } from "@/lib/config";
+import {
+  SkillsSection,
+  EducationSection,
+  ExperienceSection,
+} from "@/components/ProfileSections";
 
 export default function HomePage() {
   const posts = getAllPostsMeta();
@@ -73,8 +78,12 @@ export default function HomePage() {
         </div>
       </section>
 
+      <SkillsSection />
+      <EducationSection />
+      <ExperienceSection />
+
       {/* Lazily-loaded, non-critical widget — demonstrates deferring
-          below-the-fold interactivity out of the initial bundle. */}
+    below-the-fold interactivity out of the initial bundle. */}
       <section className="pb-20">
         <LazyAvailability />
       </section>
