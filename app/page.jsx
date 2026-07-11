@@ -9,6 +9,7 @@ import {
   ExperienceSection,
   CertificationsSection,
 } from "@/components/ProfileSections";
+import Image from "next/image";
 
 export default function HomePage() {
   const posts = getAllPostsMeta();
@@ -29,19 +30,30 @@ export default function HomePage() {
           </div>
           <div className="px-5 py-6 sm:px-7 sm:py-8 font-mono text-sm sm:text-base leading-relaxed">
             <p className="text-white/50">$ whoami</p>
-            <h1 className="font-display text-2xl sm:text-3xl font-semibold mt-1 mb-3">
-              {AUTHOR.name}
-            </h1>
+            <div className="flex items-center gap-4 mt-1 mb-3">
+              <Image
+                src="/images/profile.jpeg"
+                alt={AUTHOR.name}
+                width={72}
+                height={72}
+                className="rounded-full object-cover border-2 border-white/20"
+              />
+              <h1 className="font-display text-2xl sm:text-3xl font-semibold">
+                {AUTHOR.name}
+              </h1>
+            </div>
             <p className="text-white/50">$ cat role.txt</p>
             <p className="mt-1 mb-3">{AUTHOR.role}</p>
             <p className="text-white/50">$ cat pitch.txt</p>
             <p className="mt-1 mb-5 text-white/85">
-              MCA student skilled in C, Java, Python, React, and Node.js — I
-              build full-stack apps and ML-powered tools, from e-commerce
-              platforms to disease-prediction and sentiment-analysis systems.
-              <span className="cursor-blink" aria-hidden="true">
-                _
-              </span>
+              Aspiring Full Stack Developer with a strong focus on Frontend
+              Development, hands-on experience with React.js, Redux, Next.js,
+              Node.js, and JavaScript. Skilled in building responsive,
+              cross-browser compatible user interfaces with REST API integration
+              and server-side rendering. Quick learner with a solid foundation
+              in front-end and back-end fundamentals, eager to contribute to
+              real-world projects in a collaborative Agile environment.
+              <span className="cursor-blink" aria-hidden="true"></span>
             </p>
             <div className="flex flex-wrap gap-3 font-sans">
               <a
