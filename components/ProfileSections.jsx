@@ -40,9 +40,9 @@ const EDUCATION = [
 
 const EXPERIENCE = [
   {
-    role: "Frontend Developer Intern",
+    role: "web Developer Intern",
     company: "Cyntoteck Technology Pvt. Ltd., Dehradun",
-    duration: "Feb 2025 – May 2025",
+    duration: "Feb 2026 – May 2026",
     points: [
       "Gained hands-on experience with frontend and backend technologies including React.js, Next.js, Redux, Node.js, and Express.js.",
       "Independently completed 4 assigned tasks from mentor, building responsive web applications with REST API integration, dynamic routing, and server-side rendering (SSR).",
