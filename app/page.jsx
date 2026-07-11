@@ -45,7 +45,7 @@ export default function HomePage() {
                 View case studies
               </a>
               <a
-                href="/resume.pdf"
+                href="/images/resume.pdf"
                 className="rounded-md border border-white/25 px-4 py-2 text-sm font-medium text-white hover:bg-white/10 transition-colors"
               >
                 Download résumé
