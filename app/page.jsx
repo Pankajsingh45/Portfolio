@@ -7,6 +7,7 @@ import {
   SkillsSection,
   EducationSection,
   ExperienceSection,
+  CertificationsSection,
 } from "@/components/ProfileSections";
 
 export default function HomePage() {
@@ -81,6 +82,7 @@ export default function HomePage() {
       <SkillsSection />
       <EducationSection />
       <ExperienceSection />
+      <CertificationsSection />
 
       {/* Lazily-loaded, non-critical widget — demonstrates deferring
     below-the-fold interactivity out of the initial bundle. */}
